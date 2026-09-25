@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- Linux click-to-focus for JetBrains IDE terminals (IntelliJ IDEA, PhpStorm, WebStorm, PyCharm, GoLand, …). A click raises the IDE, and on KDE and X11 the window of the session's project. KDE Plasma needs `kdotool`.
+- Linux click-to-focus for JetBrains IDE terminals (IntelliJ IDEA, PhpStorm, WebStorm, PyCharm, GoLand, …). A click raises the IDE, and on KDE and X11 the window of the session's project (another window of the IDE when no title matches). Open projects with the same name are told apart by path. KDE Plasma needs `kdotool`.
 
 ### Fixed
 - Linux X11: when several windows of the terminal are open, activate the top-most one whose title names the project, not a non-matching window.
